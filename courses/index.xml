@@ -2,14 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Courses | your name</title>
-    <link>https://ccc2002-phy.github.io/hugo-theme-academic-cv/courses/</link>
-      <atom:link href="https://ccc2002-phy.github.io/hugo-theme-academic-cv/courses/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://ccc2002-phy.github.io/courses/</link>
+      <atom:link href="https://ccc2002-phy.github.io/courses/index.xml" rel="self" type="application/rss+xml" />
     <description>Courses</description>
     <generator>HugoBlox Kit (https://hugoblox.com)</generator><language>zh-Hans</language><lastBuildDate>Wed, 24 Sep 2025 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://ccc2002-phy.github.io/hugo-theme-academic-cv/media/icon_hu_fb558a5ed99f547e.png</url>
+      <url>https://ccc2002-phy.github.io/media/icon_hu_fb558a5ed99f547e.png</url>
       <title>Courses</title>
-      <link>https://ccc2002-phy.github.io/hugo-theme-academic-cv/courses/</link>
+      <link>https://ccc2002-phy.github.io/courses/</link>
     </image>
     
   </channel>

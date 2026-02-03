@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Article | your name</title>
-    <link>https://ccc2002-phy.github.io/hugo-theme-academic-cv/publication_types/article/</link>
-      <atom:link href="https://ccc2002-phy.github.io/hugo-theme-academic-cv/publication_types/article/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://ccc2002-phy.github.io/publication_types/article/</link>
+      <atom:link href="https://ccc2002-phy.github.io/publication_types/article/index.xml" rel="self" type="application/rss+xml" />
     <description>Article</description>
     <generator>HugoBlox Kit (https://hugoblox.com)</generator><language>zh-Hans</language><lastBuildDate>Sun, 07 Apr 2019 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://ccc2002-phy.github.io/hugo-theme-academic-cv/media/icon_hu_fb558a5ed99f547e.png</url>
+      <url>https://ccc2002-phy.github.io/media/icon_hu_fb558a5ed99f547e.png</url>
       <title>Article</title>
-      <link>https://ccc2002-phy.github.io/hugo-theme-academic-cv/publication_types/article/</link>
+      <link>https://ccc2002-phy.github.io/publication_types/article/</link>
     </image>
     
     <item>
       <title>An example preprint / working paper</title>
-      <link>https://ccc2002-phy.github.io/hugo-theme-academic-cv/publications/preprint/</link>
+      <link>https://ccc2002-phy.github.io/publications/preprint/</link>
       <pubDate>Sun, 07 Apr 2019 00:00:00 +0000</pubDate>
-      <guid>https://ccc2002-phy.github.io/hugo-theme-academic-cv/publications/preprint/</guid>
+      <guid>https://ccc2002-phy.github.io/publications/preprint/</guid>
       <description>&lt;p&gt;This work is driven by the results in my 
  on LLMs.&lt;/p&gt;
 

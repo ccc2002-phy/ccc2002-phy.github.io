@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Paper-Conference | your name</title>
-    <link>https://ccc2002-phy.github.io/hugo-theme-academic-cv/publication_types/paper-conference/</link>
-      <atom:link href="https://ccc2002-phy.github.io/hugo-theme-academic-cv/publication_types/paper-conference/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://ccc2002-phy.github.io/publication_types/paper-conference/</link>
+      <atom:link href="https://ccc2002-phy.github.io/publication_types/paper-conference/index.xml" rel="self" type="application/rss+xml" />
     <description>Paper-Conference</description>
     <generator>HugoBlox Kit (https://hugoblox.com)</generator><language>zh-Hans</language><lastBuildDate>Mon, 01 Jul 2013 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://ccc2002-phy.github.io/hugo-theme-academic-cv/media/icon_hu_fb558a5ed99f547e.png</url>
+      <url>https://ccc2002-phy.github.io/media/icon_hu_fb558a5ed99f547e.png</url>
       <title>Paper-Conference</title>
-      <link>https://ccc2002-phy.github.io/hugo-theme-academic-cv/publication_types/paper-conference/</link>
+      <link>https://ccc2002-phy.github.io/publication_types/paper-conference/</link>
     </image>
     
     <item>
       <title>An example conference paper</title>
-      <link>https://ccc2002-phy.github.io/hugo-theme-academic-cv/publications/conference-paper/</link>
+      <link>https://ccc2002-phy.github.io/publications/conference-paper/</link>
       <pubDate>Mon, 01 Jul 2013 00:00:00 +0000</pubDate>
-      <guid>https://ccc2002-phy.github.io/hugo-theme-academic-cv/publications/conference-paper/</guid>
+      <guid>https://ccc2002-phy.github.io/publications/conference-paper/</guid>
       <description>
 
 

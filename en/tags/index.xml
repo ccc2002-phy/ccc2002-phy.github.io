@@ -2,14 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags | your name</title>
-    <link>https://ccc2002-phy.github.io/hugo-theme-academic-cv/en/tags/</link>
-      <atom:link href="https://ccc2002-phy.github.io/hugo-theme-academic-cv/en/tags/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://ccc2002-phy.github.io/en/tags/</link>
+      <atom:link href="https://ccc2002-phy.github.io/en/tags/index.xml" rel="self" type="application/rss+xml" />
     <description>Tags</description>
     <generator>HugoBlox Kit (https://hugoblox.com)</generator><language>en-us</language>
     <image>
-      <url>https://ccc2002-phy.github.io/hugo-theme-academic-cv/media/icon_hu_fb558a5ed99f547e.png</url>
+      <url>https://ccc2002-phy.github.io/media/icon_hu_fb558a5ed99f547e.png</url>
       <title>Tags</title>
-      <link>https://ccc2002-phy.github.io/hugo-theme-academic-cv/en/tags/</link>
+      <link>https://ccc2002-phy.github.io/en/tags/</link>
     </image>
     
   </channel>

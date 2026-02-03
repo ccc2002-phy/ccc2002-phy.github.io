@@ -4,34 +4,34 @@
   
   
   <url>
-    <loc>https://ccc2002-phy.github.io/hugo-theme-academic-cv/en/authors/</loc><changefreq>weekly</changefreq></url>
+    <loc>https://ccc2002-phy.github.io/en/authors/</loc><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://ccc2002-phy.github.io/hugo-theme-academic-cv/en/publication_types/</loc><changefreq>weekly</changefreq><xhtml:link
+    <loc>https://ccc2002-phy.github.io/en/publication_types/</loc><changefreq>weekly</changefreq><xhtml:link
       rel="alternate"
       hreflang="zh"
-      href="https://ccc2002-phy.github.io/hugo-theme-academic-cv/publication_types/"
+      href="https://ccc2002-phy.github.io/publication_types/"
     /><xhtml:link
       rel="alternate"
       hreflang="en"
-      href="https://ccc2002-phy.github.io/hugo-theme-academic-cv/en/publication_types/"
+      href="https://ccc2002-phy.github.io/en/publication_types/"
     /></url>
   <url>
-    <loc>https://ccc2002-phy.github.io/hugo-theme-academic-cv/en/tags/</loc><changefreq>weekly</changefreq><xhtml:link
+    <loc>https://ccc2002-phy.github.io/en/tags/</loc><changefreq>weekly</changefreq><xhtml:link
       rel="alternate"
       hreflang="zh"
-      href="https://ccc2002-phy.github.io/hugo-theme-academic-cv/tags/"
+      href="https://ccc2002-phy.github.io/tags/"
     /><xhtml:link
       rel="alternate"
       hreflang="en"
-      href="https://ccc2002-phy.github.io/hugo-theme-academic-cv/en/tags/"
+      href="https://ccc2002-phy.github.io/en/tags/"
     /></url>
   <url>
-    <loc>https://ccc2002-phy.github.io/hugo-theme-academic-cv/en/</loc><changefreq>weekly</changefreq><xhtml:link
+    <loc>https://ccc2002-phy.github.io/en/</loc><changefreq>weekly</changefreq><xhtml:link
       rel="alternate"
       hreflang="zh"
-      href="https://ccc2002-phy.github.io/hugo-theme-academic-cv/"
+      href="https://ccc2002-phy.github.io/"
     /><xhtml:link
       rel="alternate"
       hreflang="en"
-      href="https://ccc2002-phy.github.io/hugo-theme-academic-cv/en/"
+      href="https://ccc2002-phy.github.io/en/"
     /></url></urlset>
