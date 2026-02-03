@@ -1,0 +1,65 @@
+# Hugo 配置
+# 指南: https://docs.hugoblox.com/tutorial/
+# Hugo 文档: https://gohugo.io/getting-started/configuration/#all-configuration-settings
+# 本文件使用 YAML 语法编写 - https://learnxinyminutes.com/docs/yaml/
+
+# 网站名称（也可在 params.yaml 的 hugoblox.identity.name 中设置）
+title: 'your name' # 站点标题
+# 网站 URL
+baseURL: 'https://ccc2002-phy.github.io/' # 站点基础 URL（用户/组织主页使用根域名；项目页需包含仓库名）
+
+############################
+## 语言
+############################
+
+defaultContentLanguage: zh # 默认语言
+hasCJKLanguage: true # 是否包含中日韩语言（影响分词/摘要等）
+defaultContentLanguageInSubdir: false # 默认语言是否放在子目录
+removePathAccents: true # URL 中移除重音符号
+
+############################
+## 页面选项
+############################
+
+cascade: # 对特定页面应用默认设置
+  - _target: # 规则目标
+      path: /slides/** # 匹配路径
+      kind: page # 匹配页面类型
+    outputs: [HTML, present] # 输出格式（HTML 与演示）
+
+############################
+## 高级
+############################
+
+build: # 构建相关配置
+  writeStats: true # 生成构建统计数据
+enableGitInfo: false # 是否读取 Git 信息
+summaryLength: 30 # 自动摘要长度
+pagination: # 分页设置
+  pagerSize: 10 # 每页数量
+enableEmoji: true # 启用 Emoji
+enableRobotsTXT: true # 生成 robots.txt
+footnotereturnlinkcontents: <sup>^</sup> # 脚注返回链接内容
+ignoreFiles: [".ipynb_checkpoints$", "\\.Rmd$", "\\.Rmarkdown$", "_cache$"] # 构建时忽略的文件
+disableAliases: true # 禁用别名重定向
+outputs: # 输出格式
+  home: [HTML, RSS, headers, redirects, backlinks] # 首页输出
+  section: [HTML, RSS] # 分区页输出
+imaging: # 图片处理
+  resampleFilter: lanczos # 重采样算法
+  quality: 90 # 图片质量
+  anchor: smart # 裁剪锚点
+  hint: picture # 图片类型提示
+timeout: 600000 # 构建超时时间（毫秒）
+taxonomies: # 分类法
+  author: authors # 作者分类
+  tag: tags # 标签分类
+  publication_type: publication_types # 出版物类型分类
+markup: # Markdown 渲染
+  _merge: deep # 合并策略
+  highlight: # 代码高亮
+    lineNos: false # 是否显示行号
+security: # 安全相关配置
+  _merge: deep # 合并策略
+sitemap: # 站点地图
+  _merge: deep # 合并策略

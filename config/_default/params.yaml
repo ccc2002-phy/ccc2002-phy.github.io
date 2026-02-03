@@ -1,0 +1,291 @@
+# ══════════════════════════════════════════════════════════════════════════════
+# HUGO BLOX 配置
+# Schema: hugoblox.com/schema/v2
+# 指南: https://docs.hugoblox.com/tutorial/
+# 文档: https://docs.hugoblox.com/
+# ══════════════════════════════════════════════════════════════════════════════
+hugoblox: # HugoBlox 顶层配置
+  schema: "2.0" # 配置 Schema 版本
+
+  # ────────────────────────────────────────────────────────────────────────────
+  # 身份
+  # 站点级品牌信息（人物/作者信息请使用 content/authors/）
+  # ────────────────────────────────────────────────────────────────────────────
+  identity: # 站点身份信息
+    # 站点名称 - 默认显示于导航栏、页脚、版权与浏览器标题
+    name: "测试-量子时间同步课题组" # 站点名称
+    # 版权主体/组织名称（默认与 name 相同）
+    organization: "" # 版权主体/组织名称
+    # 结构化数据类型
+    type: person                        # person | organization | local_business
+    # 站点短标语
+    tagline: "" # 站点标语
+    # 站点描述（搜索与社交分享）
+    description: "The highly-customizable Hugo Academic theme powered by HugoBlox Kit. Easily create your personal academic website." # 站点描述
+    # 社交账号（用于 Twitter Cards 等）
+    social: # 社交账号
+      twitter: "LoreLabs_"              # Twitter/X 用户名（不含 @）
+
+  # ────────────────────────────────────────────────────────────────────────────
+  # 主题
+  # 颜色与视觉设计系统
+  # ────────────────────────────────────────────────────────────────────────────
+  theme: # 主题配置
+    # 模式: 'light' | 'dark' | 'system'（跟随系统）
+    mode: system # 主题模式
+    # 主题包: data/themes/ 下的名称，或 { light: "x", dark: "y" } 混搭
+    pack: "default" # 主题包
+    # 颜色覆盖
+    colors: # 颜色配置
+      primary: ""                       # Tailwind 调色板名称或十六进制色值
+      secondary: "" # 次要色
+      neutral: ""                       # 影响灰阶工具类
+    # 模式颜色覆盖
+    colors_light: {} # 亮色模式颜色覆盖
+    colors_dark: {} # 暗色模式颜色覆盖
+    # 语义表面色覆盖
+    surfaces: # 语义表面色
+      background: "" # 背景色
+      foreground: "" # 前景色
+      header: # 头部颜色
+        background: "" # 头部背景色
+        foreground: "" # 头部前景色
+      footer: # 页脚颜色
+        background: "" # 页脚背景色
+        foreground: "" # 页脚前景色
+
+  # ────────────────────────────────────────────────────────────────────────────
+  # 排版
+  # 字体与字号
+  # ────────────────────────────────────────────────────────────────────────────
+  typography: # 字体与字号
+    # 字体: 'sans'（Inter）| 'serif'（Roboto Slab）| 'native'（系统字体）
+    font: "sans" # 字体风格
+    # 尺寸: 'sm' | 'md' | 'lg' | 'xl'（影响基准字号与缩放）
+    size: "md" # 字号级别
+
+  # ────────────────────────────────────────────────────────────────────────────
+  # 布局
+  # 间距与形状
+  # ────────────────────────────────────────────────────────────────────────────
+  layout: # 布局样式
+    # 圆角: 'none' | 'sm' | 'md' | 'lg' | 'full'
+    radius: "md" # 圆角大小
+    # 间距密度: 'compact' | 'comfortable' | 'spacious'
+    spacing: "comfortable" # 间距密度
+    # 作者头像形状
+    avatar_shape: circle                # circle | square | rounded
+
+  # ────────────────────────────────────────────────────────────────────────────
+  # 头部
+  # 站点头部与导航栏
+  # ────────────────────────────────────────────────────────────────────────────
+  header: # 头部导航
+    enable: true # 启用头部
+    # 头部样式
+    style: navbar                       # navbar | navbar-simple | minimal
+    # 滚动时置顶
+    sticky: true # 滚动时置顶
+    # 菜单对齐
+    align: center                       # left | center | right
+    # 功能开关
+    search: true # 启用搜索
+    theme_toggle: true # 启用主题切换按钮
+    theme_picker: true # 启用主题选择器
+    language_switcher: true # 启用语言切换
+    # CTA 按钮
+    cta: # 头部 CTA 按钮
+      enable: false # 是否启用
+      text: "" # 按钮文案
+      url: "" # 按钮链接
+
+  # ────────────────────────────────────────────────────────────────────────────
+  # 页脚
+  # 站点页脚
+  # ────────────────────────────────────────────────────────────────────────────
+  footer: # 页脚设置
+    # 页脚样式
+    style: minimal                      # minimal | columns | centered
+    language_switcher: true # 页脚语言切换
+    # 自定义页脚文本（支持 HTML）
+    text: "" # 自定义页脚文本
+
+  # ────────────────────────────────────────────────────────────────────────────
+  # 版权
+  # 法律声明与许可
+  # ────────────────────────────────────────────────────────────────────────────
+  copyright: # 版权信息
+    # 版权声明（支持 {year}、{name}、{license} 占位符）
+    notice: "© {year} {name}. This work is licensed under {license}" # 版权声明模板
+    license: # 许可协议
+      type: cc                          # cc | custom
+      allow_derivatives: false # 允许演绎作品
+      share_alike: true # 要求相同方式共享
+      allow_commercial: false # 允许商业使用
+
+  # ────────────────────────────────────────────────────────────────────────────
+  # SEO
+  # 搜索引擎优化
+  # ────────────────────────────────────────────────────────────────────────────
+  seo: # SEO 设置
+    # 浏览器标签标题覆盖（默认使用 identity.name）
+    title: "" # SEO 标题
+    # 仅用于 local_business
+    location: # 机构位置
+      address: # 地址
+        street: "" # 街道
+        city: "" # 城市
+        region: "" # 地区
+        postal_code: "" # 邮编
+        country: "" # 国家
+      coordinates: # 坐标
+        latitude: null # 纬度
+        longitude: null # 经度
+      phone: "" # 电话
+    # AI/LLM 爬虫指引（llms.txt）
+    ai: # AI 爬虫指引
+      allow: # 允许访问的路径
+        - / # 允许根路径
+      disallow: [] # 禁止访问的路径
+      note: "Guidance for AI crawlers - customize to match your public content." # 说明文本
+      contact: "" # 联系方式
+
+  # ────────────────────────────────────────────────────────────────────────────
+  # 内容
+  # 内容渲染与行为
+  # ────────────────────────────────────────────────────────────────────────────
+  content: # 内容渲染设置
+    # 数学公式
+    math: # 数学公式
+      enable: false # 启用公式渲染
+    # 目录
+    toc: # 目录
+      enable: true # 启用目录
+    # 阅读时长
+    reading_time: # 阅读时长
+      enable: true # 显示阅读时间
+    # 学术引用
+    citations: # 引用样式
+      style: apa                        # apa | mla | chicago | ieee
+
+  # ────────────────────────────────────────────────────────────────────────────
+  # 搜索
+  # 站内搜索
+  # ────────────────────────────────────────────────────────────────────────────
+  search: # 搜索设置
+    enable: true # 启用站内搜索
+    # 搜索建议
+    suggestions: [] # 搜索建议
+    # 搜索弹窗快捷动作
+    quick_actions: [] # 快捷动作
+
+  # ────────────────────────────────────────────────────────────────────────────
+  # 评论
+  # 用户评论系统
+  # ────────────────────────────────────────────────────────────────────────────
+  comments: # 评论系统
+    enable: false # 启用评论
+    provider: ""                        # giscus | disqus
+    giscus: # Giscus 配置
+      repo: "" # 仓库
+      repo_id: "" # 仓库 ID
+      category: "" # 分类
+      category_id: "" # 分类 ID
+    disqus: # Disqus 配置
+      shortname: "" # shortname
+
+  # ────────────────────────────────────────────────────────────────────────────
+  # 统计分析
+  # 流量与行为分析
+  # ────────────────────────────────────────────────────────────────────────────
+  analytics: # 统计分析
+    google: # Google Analytics
+      measurement_id: ""                # Google Analytics 4: G-XXXXXXXXXX
+    google_tag_manager: # GTM
+      container_id: ""                  # GTM-XXXXXXX
+    plausible: # Plausible
+      domain: "" # 域名
+    fathom: # Fathom
+      site_id: "" # 站点 ID
+    pirsch: # Pirsch
+      site_id: "" # 站点 ID
+    clarity: # Microsoft Clarity
+      project_id: "" # 项目 ID
+    baidu: # 百度统计
+      site_id: "" # 站点 ID
+
+  # ────────────────────────────────────────────────────────────────────────────
+  # 站点验证
+  # 搜索引擎站点验证码
+  # ────────────────────────────────────────────────────────────────────────────
+  verification: # 站点验证
+    google: "" # Google 验证码
+    bing: "" # Bing 验证码
+    baidu: "" # 百度验证
+    yandex: "" # Yandex 验证
+    pinterest: "" # Pinterest 验证
+    naver: "" # Naver 验证
+
+  # ────────────────────────────────────────────────────────────────────────────
+  # 仓库
+  # “编辑此页”链接的源码仓库
+  # ────────────────────────────────────────────────────────────────────────────
+  repository: # 源码仓库
+    enable: false # 启用“编辑此页”链接
+    url: ""                             # 例如: https://github.com/username/repo
+    branch: main # 默认分支
+    content_dir: content # 内容目录
+
+  # ────────────────────────────────────────────────────────────────────────────
+  # 区域设置
+  # 时间与地址格式
+  # ────────────────────────────────────────────────────────────────────────────
+  locale: # 区域格式
+    date_format: "Jan 2, 2006"          # Go 时间格式
+    time_format: "3:04 PM" # 时间格式
+    address_format: en-us # 地址格式
+
+  # ────────────────────────────────────────────────────────────────────────────
+  # 安全
+  # 安全头与策略（需要 Netlify 集成）
+  # ────────────────────────────────────────────────────────────────────────────
+  security: # 安全设置
+    csp: # 内容安全策略
+      policy: "" # CSP 策略
+      report_only: false # 仅报告模式
+    frame_options: allow                 # deny | sameorigin | allow（allow 允许 iframe 嵌入）
+    permissions_policy: "" # 权限策略
+
+  # ────────────────────────────────────────────────────────────────────────────
+  # 隐私
+  # 隐私与合规模块
+  # ────────────────────────────────────────────────────────────────────────────
+  privacy: # 隐私设置
+    enable: false # 启用隐私模式
+    anonymize_analytics: true # 匿名化统计
+
+  # ────────────────────────────────────────────────────────────────────────────
+  # 调试
+  # 开发与调试（生产环境隐藏）
+  # ────────────────────────────────────────────────────────────────────────────
+  debug: # 调试设置
+    enable: false # 启用调试
+    hud: # 调试 HUD
+      position: bottom-left             # top-left | top-right | bottom-left | bottom-right
+      opacity: 1.0 # 透明度
+    export_logs: true # 导出日志
+
+  # ────────────────────────────────────────────────────────────────────────────
+  # 高级功能
+  # Premium 与创作者计划
+  # ────────────────────────────────────────────────────────────────────────────
+  pro: # Premium 功能
+    # 隐藏 "Powered by HugoBlox" 署名
+    # 需要 HugoBlox Premium
+    # 即便使用 Premium，也可保持 false 以支持开源
+    # 获取 Premium: https://hugoblox.com/premium
+    hide_attribution: false # 隐藏 HugoBlox 署名
+    
+    # 推广计划代码
+    # 加入推广计划: https://hugoblox.com/affiliates
+    affiliate_code: "" # 推广计划代码

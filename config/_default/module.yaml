@@ -1,0 +1,26 @@
+############################
+## Hugo 模块
+## 在此安装或卸载主题与插件
+## 文档: https://gohugo.io/hugo-modules/
+############################
+
+imports: # 模块导入列表
+  - path: github.com/HugoBlox/kit/modules/integrations/netlify # Netlify 集成模块
+  - path: github.com/HugoBlox/kit/modules/blox # HugoBlox 基础模块
+  - path: github.com/HugoBlox/kit/modules/slides # 幻灯片模块
+
+# 安装位于 `hugo-blox/blox/` 目录下的 Blox 组件
+mounts: # 目录挂载配置
+  - source: hugo-blox/blox/community # 社区组件源目录
+    target: layouts/_partials/blox/community/ # 目标模板目录
+    includeFiles: '**.html' # 仅包含 HTML 文件
+  - source: hugo-blox/blox/all-access # 全量组件源目录
+    target: layouts/_partials/blox/ # 目标模板目录
+    includeFiles: '**.html' # 仅包含 HTML 文件
+  - source: hugo-blox/blox # Blox 资源源目录
+    target: assets/dist/community/blox/ # 目标资源目录
+    includeFiles: '**.css' # 仅包含 CSS 文件
+  - source: layouts # 自定义模板目录
+    target: layouts # 模板挂载目标
+  - source: assets # 自定义资源目录
+    target: assets # 资源挂载目标

@@ -1,0 +1,26 @@
+# 导航链接
+#   若链接首页部件，可使用 `#` + `content/home/` 下的部件文件名。
+#   weight 参数决定链接显示顺序。
+
+main: # 主导航菜单
+  - name: Bio # 菜单名称
+    url: / # 首页链接
+    weight: 10 # 排序权重
+  - name: 发表文章 # 菜单名称
+    url: /#papers # 首页锚点链接
+    weight: 11 # 排序权重
+  - name: 讲座汇报 # 菜单名称
+    url: /#talks # 首页锚点链接
+    weight: 12 # 排序权重
+  - name: 近期活动 # 菜单名称
+    url: /#news # 首页锚点链接
+    weight: 13 # 排序权重
+  - name: Experience # 菜单名称
+    url: experience/ # 相对路径页面
+    weight: 20 # 排序权重
+  - name: 项目课题 # 菜单名称
+    url: projects/ # 相对路径页面
+    weight: 30 # 排序权重
+  - name: Courses # 菜单名称
+    url: courses/ # 相对路径页面
+    weight: 40 # 排序权重

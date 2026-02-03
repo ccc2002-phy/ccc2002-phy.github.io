@@ -1,0 +1,17 @@
+# 语言
+#   为站点的每种语言创建一个配置段。
+#   文档: https://docs.hugoblox.com/reference/language/
+
+# 中文（默认语言）
+zh: # 中文语言标识
+  languageCode: zh-Hans # 语言代码
+  languageName: 中文 # 语言名称
+  weight: 1 # 语言顺序
+
+# 英文
+en: # 英文语言标识
+  languageCode: en-us # 语言代码
+  languageName: English # 语言名称
+  weight: 2 # 语言顺序
+  # 多语言站点可启用以下设置，并将英文内容放入 `en` 子目录。
+  #contentDir: content/en
