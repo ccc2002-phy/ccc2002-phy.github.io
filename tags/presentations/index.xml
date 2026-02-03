@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Presentations | 测试-量子时间同步课题组</title>
-    <link>https://ccc2002-phy.github.io/tags/presentations/</link>
-      <atom:link href="https://ccc2002-phy.github.io/tags/presentations/index.xml" rel="self" type="application/rss+xml" />
+    <title>Presentations | your name</title>
+    <link>https://ccc2002-phy.github.io/hugo-theme-academic-cv/tags/presentations/</link>
+      <atom:link href="https://ccc2002-phy.github.io/hugo-theme-academic-cv/tags/presentations/index.xml" rel="self" type="application/rss+xml" />
     <description>Presentations</description>
-    <generator>HugoBlox Kit (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0000</lastBuildDate>
+    <generator>HugoBlox Kit (https://hugoblox.com)</generator><language>zh-Hans</language><lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://ccc2002-phy.github.io/media/icon_hu_fb558a5ed99f547e.png</url>
+      <url>https://ccc2002-phy.github.io/hugo-theme-academic-cv/media/icon_hu_fb558a5ed99f547e.png</url>
       <title>Presentations</title>
-      <link>https://ccc2002-phy.github.io/tags/presentations/</link>
+      <link>https://ccc2002-phy.github.io/hugo-theme-academic-cv/tags/presentations/</link>
     </image>
     
     <item>
       <title>Create Beautiful Presentations with Markdown</title>
-      <link>https://ccc2002-phy.github.io/events/example/</link>
+      <link>https://ccc2002-phy.github.io/hugo-theme-academic-cv/events/example/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
-      <guid>https://ccc2002-phy.github.io/events/example/</guid>
+      <guid>https://ccc2002-phy.github.io/hugo-theme-academic-cv/events/example/</guid>
       <description>&lt;h2 id=&#34;-why-markdown-slides&#34;&gt;🎯 Why Markdown Slides?&lt;/h2&gt;
 
 
@@ -402,7 +402,7 @@ Navigate down for sub-topics!&lt;/p&gt;
     &lt;svg height=&#34;24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 24 24&#34;&gt;&lt;path fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;1.5&#34; d=&#34;M20.25 8.511c.884.284 1.5 1.128 1.5 2.097v4.286c0 1.136-.847 2.1-1.98 2.193c-.34.027-.68.052-1.02.072v3.091l-3-3a49.5 49.5 0 0 1-4.02-.163a2.115 2.115 0 0 1-.825-.242m9.345-8.334a2.126 2.126 0 0 0-.476-.095a48.64 48.64 0 0 0-8.048 0c-1.131.094-1.976 1.057-1.976 2.192v4.286c0 .837.46 1.58 1.155 1.951m9.345-8.334V6.637c0-1.621-1.152-3.026-2.76-3.235A48.455 48.455 0 0 0 11.25 3c-2.115 0-4.198.137-6.24.402c-1.608.209-2.76 1.614-2.76 3.235v6.226c0 1.621 1.152 3.026 2.76 3.235c.577.075 1.157.14 1.74.194V21l4.155-4.155&#34;/&gt;&lt;/svg&gt;
   &lt;/span&gt;
   &lt;div class=&#34;callout-content dark:text-neutral-300&#34;&gt;
-    &lt;div class=&#34;callout-title font-semibold mb-1&#34;&gt;Quote&lt;/div&gt;
+    &lt;div class=&#34;callout-title font-semibold mb-1&#34;&gt;引用&lt;/div&gt;
     &lt;div class=&#34;callout-body&#34;&gt;&lt;p&gt;&amp;ldquo;I can finally version control my presentations with Git, collaborate using GitHub, and never worry about formatting breaking again. Game changer for reproducible research!&amp;rdquo;
 — &lt;em&gt;Dr. Xin Liu, MIT&lt;/em&gt;&lt;/p&gt;&lt;/div&gt;
   &lt;/div&gt;
@@ -470,7 +470,7 @@ Navigate down for sub-topics!&lt;/p&gt;
     &lt;svg height=&#34;24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 24 24&#34;&gt;&lt;path fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;1.5&#34; d=&#34;m16.862 4.487l1.687-1.688a1.875 1.875 0 1 1 2.652 2.652L6.832 19.82a4.5 4.5 0 0 1-1.897 1.13l-2.685.8l.8-2.685a4.5 4.5 0 0 1 1.13-1.897zm0 0L19.5 7.125&#34;/&gt;&lt;/svg&gt;
   &lt;/span&gt;
   &lt;div class=&#34;callout-content dark:text-neutral-300&#34;&gt;
-    &lt;div class=&#34;callout-title font-semibold mb-1&#34;&gt;Note&lt;/div&gt;
+    &lt;div class=&#34;callout-title font-semibold mb-1&#34;&gt;注意&lt;/div&gt;
     &lt;div class=&#34;callout-body&#34;&gt;&lt;p&gt;&lt;strong&gt;Try it now!&lt;/strong&gt; The slides embedded above demonstrate all these features:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Code highlighting with Python&lt;/li&gt;
@@ -501,7 +501,7 @@ Navigate down for sub-topics!&lt;/p&gt;
 &lt;div class=&#34;text-left&#34;&gt;
   &lt;a
     id=&#34;button-7519dfcc27cf03dd985a63a0b9a6155b&#34;
-    href=&#34;https://ccc2002-phy.github.io/slides/example/&#34;
+    href=&#34;https://ccc2002-phy.github.io/hugo-theme-academic-cv/slides/example/&#34;
     target=&#34;_blank&#34;
     rel=&#34;noopener&#34;
     
@@ -641,7 +641,7 @@ Navigate down for sub-topics!&lt;/p&gt;
     &lt;svg height=&#34;24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 24 24&#34;&gt;&lt;path fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;1.5&#34; d=&#34;M9 12.75L11.25 15L15 9.75M21 12a9 9 0 1 1-18 0a9 9 0 0 1 18 0&#34;/&gt;&lt;/svg&gt;
   &lt;/span&gt;
   &lt;div class=&#34;callout-content dark:text-neutral-300&#34;&gt;
-    &lt;div class=&#34;callout-title font-semibold mb-1&#34;&gt;Success&lt;/div&gt;
+    &lt;div class=&#34;callout-title font-semibold mb-1&#34;&gt;成功&lt;/div&gt;
     &lt;div class=&#34;callout-body&#34;&gt;&lt;p&gt;&lt;strong&gt;Hugo Blox wins on freedom, portability, and long-term sustainability.&lt;/strong&gt;&lt;/p&gt;&lt;/div&gt;
   &lt;/div&gt;
 &lt;/div&gt;

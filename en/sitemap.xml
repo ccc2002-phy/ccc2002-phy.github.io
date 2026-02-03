@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  
+  <url>
+    <loc>https://ccc2002-phy.github.io/hugo-theme-academic-cv/en/authors/</loc><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://ccc2002-phy.github.io/hugo-theme-academic-cv/en/publication_types/</loc><changefreq>weekly</changefreq><xhtml:link
+      rel="alternate"
+      hreflang="zh"
+      href="https://ccc2002-phy.github.io/hugo-theme-academic-cv/publication_types/"
+    /><xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="https://ccc2002-phy.github.io/hugo-theme-academic-cv/en/publication_types/"
+    /></url>
+  <url>
+    <loc>https://ccc2002-phy.github.io/hugo-theme-academic-cv/en/tags/</loc><changefreq>weekly</changefreq><xhtml:link
+      rel="alternate"
+      hreflang="zh"
+      href="https://ccc2002-phy.github.io/hugo-theme-academic-cv/tags/"
+    /><xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="https://ccc2002-phy.github.io/hugo-theme-academic-cv/en/tags/"
+    /></url>
+  <url>
+    <loc>https://ccc2002-phy.github.io/hugo-theme-academic-cv/en/</loc><changefreq>weekly</changefreq><xhtml:link
+      rel="alternate"
+      hreflang="zh"
+      href="https://ccc2002-phy.github.io/hugo-theme-academic-cv/"
+    /><xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="https://ccc2002-phy.github.io/hugo-theme-academic-cv/en/"
+    /></url></urlset>

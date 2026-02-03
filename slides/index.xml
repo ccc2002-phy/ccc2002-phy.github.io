@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Slides | 测试-量子时间同步课题组</title>
-    <link>https://ccc2002-phy.github.io/slides/</link>
-      <atom:link href="https://ccc2002-phy.github.io/slides/index.xml" rel="self" type="application/rss+xml" />
+    <title>Slides | your name</title>
+    <link>https://ccc2002-phy.github.io/hugo-theme-academic-cv/slides/</link>
+      <atom:link href="https://ccc2002-phy.github.io/hugo-theme-academic-cv/slides/index.xml" rel="self" type="application/rss+xml" />
     <description>Slides</description>
-    <generator>HugoBlox Kit (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 01 Jan 2024 00:00:00 +0000</lastBuildDate>
+    <generator>HugoBlox Kit (https://hugoblox.com)</generator><language>zh-Hans</language><lastBuildDate>Mon, 01 Jan 2024 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://ccc2002-phy.github.io/media/icon_hu_fb558a5ed99f547e.png</url>
+      <url>https://ccc2002-phy.github.io/hugo-theme-academic-cv/media/icon_hu_fb558a5ed99f547e.png</url>
       <title>Slides</title>
-      <link>https://ccc2002-phy.github.io/slides/</link>
+      <link>https://ccc2002-phy.github.io/hugo-theme-academic-cv/slides/</link>
     </image>
     
     <item>
       <title>Example Talk: Recent Work</title>
-      <link>https://ccc2002-phy.github.io/slides/example/</link>
+      <link>https://ccc2002-phy.github.io/hugo-theme-academic-cv/slides/example/</link>
       <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>https://ccc2002-phy.github.io/slides/example/</guid>
+      <guid>https://ccc2002-phy.github.io/hugo-theme-academic-cv/slides/example/</guid>
       <description>&lt;!-- no-branding --&gt;
 &lt;h1 id=&#34;example-talk&#34;&gt;Example Talk&lt;/h1&gt;
 &lt;h3 id=&#34;dr-alex-johnson--meta-ai&#34;&gt;Dr. Alex Johnson · Meta AI&lt;/h3&gt;
